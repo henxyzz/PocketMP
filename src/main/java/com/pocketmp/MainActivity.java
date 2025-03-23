@@ -25,6 +25,11 @@ public class MainActivity extends AppCompatActivity {
 
         setupServer();
         setupThemeSwitch();
+        
+        Button fileManagerBtn = findViewById(R.id.fileManagerBtn);
+        fileManagerBtn.setOnClickListener(v -> {
+            startActivity(new Intent(MainActivity.this, FileManagerActivity.class));
+        });
     }
 
     private void setupServer() {
