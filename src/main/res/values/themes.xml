@@ -1,0 +1,21 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark Theme -->
+    <style name="Theme.PocketMP.Dark" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/neon_blue</item>
+        <item name="colorPrimaryDark">@color/dark_blue</item>
+        <item name="colorAccent">@color/neon_cyan</item>
+        <item name="android:windowBackground">@color/dark_bg</item>
+        <item name="android:textColor">@color/text_light</item>
+    </style>
+
+    <!-- Light Theme -->
+    <style name="Theme.PocketMP.Light" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/light_blue</item>
+        <item name="colorPrimaryDark">@color/steel_blue</item>
+        <item name="colorAccent">@color/bright_cyan</item>
+        <item name="android:windowBackground">@color/light_bg</item>
+        <item name="android:textColor">@color/text_dark</item>
+    </style>
+</resources>

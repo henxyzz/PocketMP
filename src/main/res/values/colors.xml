@@ -1,0 +1,15 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="neon_blue">#00A6FF</color>
+    <color name="dark_blue">#001B2E</color>
+    <color name="neon_cyan">#00FFF0</color>
+    <color name="dark_bg">#000B14</color>
+    <color name="text_light">#E0E0E0</color>
+    
+    <color name="light_blue">#2196F3</color>
+    <color name="steel_blue">#4A6B8A</color>
+    <color name="bright_cyan">#00BCD4</color>
+    <color name="light_bg">#F5F5F5</color>
+    <color name="text_dark">#212121</color>
+</resources>
